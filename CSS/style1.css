@@ -1,0 +1,66 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: white;
+}
+
+hr{
+    color: gray;
+}
+
+.firstPage{
+    background-color: #E1E1E1;
+    padding:10px;
+    margin:10px;
+    height: 500px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu li{
+    display: inline;
+    background-color: orange;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li:hover{
+    background-color: gray;
+    margin-right: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.menu li a:hover{
+    color: black;
+}
+
+.content{
+    border: 1px solid white;
+    padding: 5px 5px 5px 10px;
+    background-color: white;
+    color: gray;
+    font-size: 12px;
+}
+
+.content h4{
+    color:orange;
+}
+
+footer {
+    text-align:  right;
+    padding-top: 10px;
+    font-size: 11px;
+    color: gray;
+}

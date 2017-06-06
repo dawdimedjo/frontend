@@ -1,0 +1,51 @@
+html{
+    font-family: Verdana, Geneva, Tahoma;
+    font-family: 'Vibur', cursive;
+}
+body {
+    background-color: brown
+}
+
+.myClassParent
+{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border: 5px solid;
+}
+.myClass
+{
+    border-left-style: solid;
+    border-left-width: 50px;
+    border-color: white;
+
+    margin: 100px;
+    padding: 50px 50px 50px 50px;
+
+    height: 100px;
+    width: 50%; 
+
+    outline-style: solid;
+    outline-width: 10px;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 2;
+    word-spacing: 20px; 
+
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+    .menu{
+        background-color: aqua;
+    }
+
+
+.menu li{
+    display: inline;
+    background-color: red;
+    margin-right: 10px;
+}
